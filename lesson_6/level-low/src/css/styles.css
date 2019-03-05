@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	background-color: #f6f6f6;
+}
+div:not(.content) {
+	display: inline-block;
+	background-color: white;
+}
+.content {
+	background-color: white;
+	margin: 100px auto;
+	width: 1010px;
+	height: 503px;
+	border: 1px solid #d7d7d7;
+	
+}
+.review {
+	margin-left: 100px;
+	vertical-align: top;
+}
+.image {
+	margin-top: 64px;
+	margin-left: 48px;
+	width: 376px;
+	height: 375px;
+}
+h2 {
+	width: 103px;
+	height: 28px;
+	color: #2f2f2f;
+	font-family: "Arial MT";
+	color: #2f2f2f;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 56px;
+}
+h1 {
+	width: 178px;
+	height: 22px;
+	color: #2f2f2f;
+	font-family: "Arial - Bold MT";
+	font-size: 23px;
+	margin-top: 94px;
+	text-align: left;
+}
+button {
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 19px;
+	font-weight: 400;
+	vertical-align: bottom; 
+	width: 252px;
+	height: 50px;
+	background-color: #ec744a;
+}
+.text {
+	margin-top: 30px;
+	text-align: left;
+	width: 393px;
+	height: 50px;
+	color: #2f2f2f;
+	font-family: "Arial MT";
+	font-size: 15px;
+	font-weight: 400;
+}
+.price {
+	width: 35px;
+	height: 14px;
+	color: #2f2f2f;
+	font-family: "Arial MT";
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 55px;
+}

@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular.eot");
+  src: url("../fonts/ArialRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialRegular.woff") format("woff"), url("../fonts/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialBold"; */
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold.eot");
+  src: url("../fonts/ArialBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialBold.woff") format("woff"), url("../fonts/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialItalic"; */
+@font-face {
+  font-family: "ArialItalic";
+  src: url("../fonts/ArialItalic.eot");
+  src: url("../fonts/ArialItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialItalic.woff") format("woff"), url("../fonts/ArialItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bg.png);
+  font-family: "ArialBold", sans-serif;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+}
+
+.main__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__input {
+  background: url(../img/bg.png);
+  height: 32px;
+  border: 1px solid #cfdede;
+  padding-left: 15px;
+}
+
+.main__fieldset {
+  background-color: white;
+  font-size: 12px;
+  position: relative;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 1px solid #cfdede;
+}
+
+.main__legend {
+  background-color: #01b3b3;
+  position: absolute;
+  top: -5px;
+  color: white;
+  text-transform: uppercase;
+  padding: 6px;
+  font-family: "ArialBold", sans-serif;
+}
+
+.main__btn {
+  border: 1px solid #dcdcdc;
+  text-decoration: none;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  background-color: #01b3b3;
+  padding: 15px 66px;
+  font-family: "ArialBold", sans-serif;
+  border-radius: 5px;
+}
+
+.main__lbl {
+  font-family: "ArialBold", sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.main__lbl:after {
+  content: '*';
+  color: #01b3b3;
+}
+
+.main__lbl:first-child {
+  margin-top: 50px;
+}
+
+.email:placeholder {
+  font-family: "ArialRegular", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

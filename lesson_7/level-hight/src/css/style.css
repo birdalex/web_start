@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+}
+/*Главный блок*/
+.container {
+	max-width:  1140px;
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-image {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 77px;
+	margin-bottom: 94px;
+
+}
+.main {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: flex-start;
+}
+.text {
+	align-items: flex-start;
+	margin-left: 75px;
+}
+
+h1 {
+	margin-top: 137px;
+	margin-bottom: 15px;
+	color: #000000;
+	font-size: 48px;
+	font-weight: 700;
+}
+span {
+	
+	color: #000000;
+	font-size: 30px;
+	font-weight: 400;
+}
+.about {
+	margin-bottom: 47px;
+	width: 526px;
+	height: 99px;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.price {
+	margin-bottom: 53px;
+	color: #313131;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+}
+button {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	border-radius: 5px;
+	height: 67px;
+}
+.buy {
+	color: #ffffff;
+	width: 175px;
+	background-color: #f05a22;
+}
+.learn {
+	margin-left: 40px;
+	color: #f05a22;
+	width: 287px;
+	border: 2px solid #f05a22;
+	background-color: white;
+}
+/*Блок отправки*/
+.page-header {
+	display: flex;
+	justify-content: center;
+	padding-top: 89px;
+	padding-bottom: 91px
+
+}
+.page-image {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+.image {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-right: 65px;
+	padding-left: 145px;
+	
+}
+.box {
+	margin-right: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.picture {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.image span {
+
+	text-align: center;
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+h2 {
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+
+}
+.shipping .container {
+	background-color: #f2f2f2;
+}

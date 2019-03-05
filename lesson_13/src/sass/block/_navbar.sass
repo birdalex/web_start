@@ -1,0 +1,51 @@
+.navbar
+  padding: 8px 0
+  &-block 
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__info 
+    display: flex
+    align-items: center
+  &__contacts
+    display: flex
+    flex-direction: column
+  &__btn
+    margin-left: 30px
+  &__phone
+    min-width: 172px
+    text-decoration: none
+    color: $black
+    font-size: 20px
+    
+  &__adress
+    display: flex
+    justify-content: flex-end
+    margin-bottom: 9px
+    font-size: 13px
+    
+    color: $black
+@media (max-width: 768px)
+  .navbar
+    &__btn
+      font-size: 10px
+@media (max-width: 568px) 
+  .navbar
+    &__contacts
+      display: none
+    &__btn
+      padding: 15px 26px
+      font-size: 10px
+      
+      width: 137px
+      height: 39px
+      border-radius: 5px
+      background-color: $yellow
+    &__logo
+      width: 91px
+      height: 44px
+
+    
+  
+
+

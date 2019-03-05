@@ -1,0 +1,32 @@
+.portfolio
+  background: url(../img/portfolio-bg.jpg) repeat-y center left
+  background-color: $gray
+  background-size: 50%
+  &__title
+    text-align: center
+    margin: 0
+    
+    margin-bottom: 100px
+    font-size: 30px;
+    line-height: 45px;
+.slider
+  &__image
+    margin: auto
+.owl-nav
+  max-width: 120px
+  justify-content: space-between
+  display: flex
+  margin: 68px auto
+
+.prev, .next
+  &:hover
+    cursor: pointer
+@media (max-width: 768px)
+  .portfolio
+    background-color: $gray
+    background-image: none
+    padding: 40px
+    &__title
+      font-size: 18px
+      line-height: 1.4
+      margin-bottom: 40px

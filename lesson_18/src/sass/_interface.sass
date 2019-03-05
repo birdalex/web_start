@@ -1,0 +1,48 @@
+*
+  box-sizing: border-box
+body
+  +reg
+img
+  max-width: 100%
+.container
+  width: 1170px
+  margin: auto
+@media (max-width: 1200px)
+  .container
+    width: 760px
+    
+@media (max-width: 768px)
+  .container
+    max-width: 750px
+    width: 90%
+@media (max-width: 567px)
+  .container
+    max-width: 450px
+    width: 90%
+@media (max-width: 360px)
+  .container
+    max-width: 277px
+    width: 96%
+.btn
+  border-radius: 10px
+  background-color: $yellow
+  border: none
+  padding: 18px 30px
+  +bold
+  &:hover
+    background-color: lighten($yellow, 10%)
+    cursor: pointer
+.section
+  padding: 90px 0
+  &-title 
+    font-size: 24px
+    +bold
+    text-align: center
+  &-subtitle
+    font-size: 16px
+.input
+  width: 240px
+  border-radius: 10px
+  border: 1px solid $border-inout  
+  font-size: 15px
+  padding: 20px 26px 

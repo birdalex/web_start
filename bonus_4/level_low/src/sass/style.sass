@@ -1,0 +1,79 @@
+$gray: #666666
+$green: #66cc66
+body
+  font-family: sans-serif
+.container
+  max-width: 1176px
+  margin: auto
+.main
+  padding-top: 75px
+.header
+  display: flex
+  justify-content: center
+  text-transform: uppercase
+  margin-bottom: 75px
+  font-size: 35px
+  font-weight: 700
+  line-height: 25px
+  color: $gray
+.contant
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  flex-wrap: wrap
+  &__item
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__image
+    margin-bottom: 30px
+  &__description
+    display: block
+    margin-bottom: 30px
+    text-transform: uppercase
+    font-size: 18px
+    font-weight: 500
+    line-height: 22px
+    color: $gray
+  &__button
+    width: 100%
+    display: flex
+    justify-content: space-between
+  &__btn 
+    text-decoration: none
+    border: 2px solid $green
+    color: $green
+    background-color: white
+    flex-basis: 48%
+    width: 133px
+    height: 41px
+    font-size: 14px
+    font-weight: 700
+    line-height: 25px
+    text-transform: uppercase
+  &__btn:hover
+    flex-basis: 100%
+.btn_2
+  background-color: $green
+  color: white
+@media (max-width: 1200px)
+  .container
+    max-width: 800px
+  .contant
+    justify-content: space-around
+    &__item
+      justify-content: center
+    &__button
+      max-width: 276px
+      margin-bottom: 30px
+@media (max-width: 768px)
+  .container
+    max-width: 450px
+  .contant
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  
+ 
+    

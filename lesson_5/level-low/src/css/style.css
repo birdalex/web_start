@@ -1,0 +1,28 @@
+body {
+	background-color: #f1f1f1;
+	
+}
+h1, h2 {
+	text-align: center;
+	color: brown;
+}
+h2 {
+	font-style: italic;
+}
+.preview span:first-of-type {
+	font-weight: bold;
+}
+.preview span:nth-of-type(2),
+.preview span:nth-of-type(3) {
+	text-decoration: line-through;
+}
+ .main-list {
+	border: 2px solid lightgray;
+	width:25%;
+	margin: auto;
+
+}
+.decoration {
+	text-decoration: underline;
+	font-weight: bold;
+}

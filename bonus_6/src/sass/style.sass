@@ -1,0 +1,62 @@
+@import 'fonts'
+@import 'colors'
+*
+  box-sizing: border-box
+body
+  background: url(../img/bg.png)
+  +ArialBold
+.main
+  display: flex
+  justify-content: center
+  align-items: space-around
+
+  &__form
+    display: flex
+    flex-direction: column
+    
+  &__input
+    background: url(../img/bg.png)
+    height: 32px
+    border: 1px solid #cfdede
+    padding-left: 15px
+  &__fieldset
+    background-color: white
+    font-size: 12px
+    position: relative
+    padding-right: 30px
+    padding-left: 30px
+    border: 1px solid #cfdede
+  &__legend
+    background-color: $main-color
+    position: absolute
+    top: -5px
+    color: white
+    text-transform: uppercase
+    padding: 6px
+    +ArialBold
+  &__btn
+    border: 1px solid #dcdcdc
+    text-decoration: none
+    margin-top: 36px
+    margin-bottom: 20px
+    text-transform: uppercase
+    font-size: 16px
+    color: white
+    background-color: $main-color    
+    padding: 15px 66px
+    +ArialBold
+    border-radius: 5px
+  &__lbl
+    +ArialBold
+    font-size: 12px
+    margin-bottom: 10px  
+    margin-top: 20px
+    &:after
+      content: '*'
+      color: $main-color
+    &:first-child
+      margin-top: 50px
+.email:placeholder
+  +ArialRegular
+    
+    

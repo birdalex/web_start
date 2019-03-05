@@ -1,0 +1,73 @@
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/LobsterRegular/Lobster-Regular.eot');
+	src: local('../fonts/LobsterRegular/Lobster Regular'),
+	local('../fonts/LobsterRegular/Lobster-Regular'),
+		url('../fonts/LobsterRegular/Lobster-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/LobsterRegular/Lobster-Regular.woff2') format('woff2'),
+		url('../fonts/LobsterRegular/Lobster-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSansRegular/OpenSans-Regular.eot');
+	src: local('../fonts/OpenSansRegular/Open Sans Regular'),
+	local('../fonts/OpenSansRegular/OpenSans-Regular'),
+		url('../fonts/OpenSansRegular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSansRegular/OpenSans-Regular.woff2') format('woff2'),
+		url('../fonts/OpenSansRegular/OpenSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasRegular/BebasNeueRegular.eot');
+	src: local('../fonts/BebasRegular/Bebas Neue Regular Regular'), local('../fonts/BebasRegular/BebasNeueRegular'),
+		url('../fonts/BebasRegular/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasRegular/BebasNeueRegular.woff2') format('woff2'),
+		url('../fonts/BebasRegular/BebasNeueRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bad Script';
+	src: url('../fonts/BadScriptRegular/BadScript-Regular.eot');
+	src: local('../fonts/BadScriptRegular/Bad Script Regular'), local('../fonts/BadScriptRegular/BadScript-Regular'),
+		url('../fonts/BadScriptRegular/BadScript-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BadScriptRegular/BadScript-Regular.woff2') format('woff2'),
+		url('../fonts/BadScriptRegular/BadScript-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+.resault:first-of-type {
+	font-family: 'Open Sans', sans-serif;
+}
+.resault:nth-of-type(2) {
+	font-family: 'Bebas Neue', sans-serif;
+}
+.resault:nth-of-type(3) {
+	font-family: 'Bad Script', sans-serif;
+}
+.resault:last-of-type {
+	font-family: 'Lobster', sans-serif;
+}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}

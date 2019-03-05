@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular.eot");
+  src: url("../fonts/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialBold"; */
+@font-face {
+  font-family: "ArialBold";
+  src: url("../fonts/ArialBold.eot");
+  src: url("../fonts/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBold.woff") format("woff"),
+    url("../fonts/ArialBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "ArialItalic"; */
+@font-face {
+  font-family: "ArialItalic";
+  src: url("../fonts/ArialItalic.eot");
+  src: url("../fonts/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@mixin ArialRegular {
+  font-family: "ArialRegular", sans-serif;
+}
+@mixin ArialBold {
+  font-family: "ArialBold", sans-serif;
+}
+@mixin ArialItalic {
+  font-family: "ArialItalic", sans-serif;
+}

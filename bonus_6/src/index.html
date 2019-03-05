@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="main">
+    <fieldset class="main__fieldset">
+      <legend class="main__legend">
+        create an account
+      </legend>
+      <form action="get" class="main__form" autocomplete="on">
+        <label for="email" class="main__lbl">Email: </label>
+        <input type="email" class="main__input email" id="email" placeholder="johnsmith@gmail.com" required>
+
+        <label for="pass" class="main__lbl">Choose Password: </label>
+        <input type="password" class="main__input" required id="pass">
+
+        <label for="conf" class="main__lbl">Confirm Password: </label>
+        <input type="password" class="main__input" id="conf" required>
+
+        <input type="submit" value="register now!" class="main__btn">
+      </form>
+    </fieldset>
+  </section>
+</body>
+</html>
